@@ -66,7 +66,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/Kunal061/AgentFinisher.git', branch: 'main'
+                git url: 'https://github.com/Kunal061/portfolio-with-jenkins.git', branch: 'main'
             }
         }
 
