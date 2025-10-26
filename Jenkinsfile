@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'sop' }
+    agent { label 'pos' }
 
     environment {
         PORT = '3000'
